@@ -1,5 +1,7 @@
-require("./components/AppHeader.jsx")
+const dom = require("../dom")
+
+const AppHeader = require("./components/AppHeader.jsx")
 
 document.body.appendChild(
-    <app-header />
+    <AppHeader />
 )

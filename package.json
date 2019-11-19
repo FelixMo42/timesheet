@@ -4,8 +4,8 @@
   "description": "A hour tracking website for team5419.",
   "main": "server",
   "scripts": {
-    "start": "node",
-    "build": "browserify pages/index.jsx -o bundle.js -t [ babelify ]",
+    "start": "node .",
+    "build": "browserify pages/index.jsx -o public/bundle.js -t [ babelify ]",
     "test": ""
   },
   "repository": {
